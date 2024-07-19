@@ -74,6 +74,8 @@ is completed with a set time.
 
 ## Contributing
 
+To create a new incident, run `make new-incident` and follow the instructions.
+
 ### Open in a container
 
 * [Open in a container](https://code.visualstudio.com/docs/devcontainers/containers)

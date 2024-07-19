@@ -19,3 +19,8 @@ else
 	@cruft check || cruft update --skip-apply-ask --refresh-private-variables
 endif
 .PHONY: cruft-update
+
+new-incident:
+	@echo "Generating new incident"
+	@plop --plopfile ./generators/index.cjs
+.PHONY: new-incident

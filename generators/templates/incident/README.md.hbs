@@ -1,0 +1,102 @@
+# {{title}}
+
+<!--
+Based on Site Reliability Engineering, Beyer, Jon, Petoff & Murphy
+
+Example document: - https://landing.google.com/sre/book/chapters/postmortem.html
+
+Postmortem culture - https://sre.google/sre-book/postmortem-culture/
+-->
+
+<!-- toc -->
+
+<!-- Regenerate with "pre-commit run -a markdown-toc" -->
+
+<!-- tocstop -->
+
+## Date
+<!-- Provide the start and end date of the incident - in YYYY-MM-DD format -->
+
+**Start**: {{startDate}}
+**End**: {{endDate}}
+
+## Authors
+<!-- Authors of this document -->
+{{#each authors}}
+* @{{this}}
+{{/each}}
+
+## Status
+<!-- Is the incident still on-going or complete? -->
+{{status}}
+
+## Summary
+<!-- Write a short description of the problem -->
+{{summary}}
+
+## Impact
+<!--
+What effect did this have?
+
+Consider:
+ - internal
+ - external
+ - cost to the business
+-->
+
+## Root Causes
+<!--
+An explanation of the underlying causes of an incident. These
+may well be outside of our control.
+
+Consider using [The Five Whys](https://en.wikipedia.org/wiki/Five_whys) method.
+-->
+
+### Trigger
+<!-- External factors that made this issue a problem -->
+
+### Resolution
+<!-- How was the problem resolved? -->
+
+### Detection
+<!-- How did we detect this issue? -->
+
+## Action Items
+<!--
+What can we improve to avoid this happening again?
+
+Action item - title of the issue
+Type - use as appropriate to categorise type of action. Eg:
+  - mitigation
+  - prevention
+  - process
+  - other
+Owner - who is responsible for ensuring this is completed?
+Ticket - link to ticket
+
+Avoid knee-jerk action items and over-optimising. Sometimes, additional
+monitoring can be avoided by improving the testing of software.
+-->
+
+| Action item | Type | Owner | Ticket |
+| --- | --- | --- | --- |
+
+## Lessons Learned
+
+### What Went Well
+<!-- Positives -->
+*
+
+### What Went Wrong
+<!-- Things that didn't go so well -->
+*
+
+### Where We Got Lucky
+<!-- Near-misses that could have caused more problems -->
+*
+
+## Timeline
+<!-- Timeline of events - all times UTC -->
+
+## Supporting information
+<!-- Useful information such as logs, screenshots, messages etc -->
