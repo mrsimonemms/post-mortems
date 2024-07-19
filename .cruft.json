@@ -1,0 +1,17 @@
+{
+  "template": "https://github.com/mrsimonemms/new",
+  "commit": "2638dec62b20a6f2dd7b5a241d47af99fc8e7f82",
+  "checkout": "main",
+  "context": {
+    "cookiecutter": {
+      "project_name": "post-mortems",
+      "description": "Template for running effective post-mortems",
+      "author": "Simon Emms <simon@simonemms.com>",
+      "_template": "https://github.com/mrsimonemms/new"
+    }
+  },
+  "directory": "blank",
+  "skip": [
+    ".git"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "image": "ghcr.io/mrsimonemms/devcontainers/full",
+  "name": "devcontainer",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.makefile-tools"
+      ],
+      "settings": {}
+    }
+  }
+}
