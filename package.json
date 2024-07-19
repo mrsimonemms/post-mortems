@@ -1,0 +1,15 @@
+{
+  "name": "post-mortems",
+  "description": "Post-mortem documents to learn lessons from our incidents",
+  "scripts": {
+    "format": "prettier --write \"**/*.{c,m}{j,t}s\"",
+    "lint": "eslint \"**/*.{c,m}{j,t}s\" --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "eslint": "^9.7.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.8.0",
+    "prettier": "^3.3.3"
+  }
+}

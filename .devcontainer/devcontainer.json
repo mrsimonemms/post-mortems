@@ -1,11 +1,16 @@
 {
   "image": "ghcr.io/mrsimonemms/devcontainers/full",
   "name": "devcontainer",
-  "features": {},
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/npm-package:1": {
+      "package": "plop"
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-vscode.makefile-tools"
+        "ms-vscode.makefile-tools",
+        "esbenp.prettier-vscode"
       ],
       "settings": {}
     }
