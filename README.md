@@ -1,4 +1,4 @@
-# post-mortems
+# Post-mortems
 
 Post-mortem documents to learn lessons from our incidents
 
@@ -9,7 +9,7 @@ Post-mortem documents to learn lessons from our incidents
     * [Open](#open)
     * [Blameless](#blameless)
     * [Constructive](#constructive)
-* [Contributing](#contributing)
+* [Creating a new incident](#creating-a-new-incident)
   * [Open in a container](#open-in-a-container)
   * [Commit style](#commit-style)
 
@@ -72,7 +72,7 @@ We commit that our post-mortems have actions and that we will complete them. Our
 actions will be assigned an owner who is responsible for ensuring that the action
 is completed with a set time.
 
-## Contributing
+## Creating a new incident
 
 To create a new incident, run `make new-incident` and follow the instructions.
 
